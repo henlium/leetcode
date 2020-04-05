@@ -1,4 +1,6 @@
-#include "common.h"
+#if __has_include("common.h")
+#  include "common.h"
+#endif
 
 class Solution
 {
